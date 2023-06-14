@@ -73,8 +73,8 @@ const ARConesTwo = () => {
       scene.add(controller);
 
       reticle = new THREE.Mesh(
-        new THREE.BoxGeometry(0.15, 0.2, 0).rotateX(-Math.PI / 2),
-        new THREE.MeshStandardMaterial({ map: myTexture })
+        new THREE.BoxGeometry(0.15, 0.2, 1).rotateX(-Math.PI / 2)
+        // new THREE.MeshStandardMaterial({ map: myTexture })
       );
       reticle.matrixAutoUpdate = false;
       reticle.visible = false;
