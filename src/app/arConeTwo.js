@@ -20,7 +20,7 @@ const ARConesTwo = () => {
     function init() {
       container = document.createElement("div");
       document.body.appendChild(container);
-      myTexture = new THREE.TextureLoader("./ytlogo.png");
+      myTexture = new THREE.TextureLoader("./Ytlogo.png");
       scene = new THREE.Scene();
 
       camera = new THREE.PerspectiveCamera(
@@ -50,7 +50,7 @@ const ARConesTwo = () => {
 
       //
 
-      const geometry = new THREE.CylinderGeometry(0.1, 0.1, 0.2, 32).translate(
+      const geometry = new THREE.CylinderGeometry(0.1, 0.1, 0.2, 3).translate(
         0,
         0.1,
         0
