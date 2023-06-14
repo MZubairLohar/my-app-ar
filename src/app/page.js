@@ -2,16 +2,16 @@
 import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 // import { Canvas } from "@react-three/fiber";
-import ARCones from "./arCones";
+import ARConesTwo from "./arConesTwo";
 export default function Home() {
   // const canvasStyle = {
-  //   height: "600px", 
+  //   height: "600px",
   // };
   return (
     <>
       <div>
         {/* <Canvas style={canvasStyle}> */}
-          <ARCones />
+        <ARConesTwo />
         {/* </Canvas> */}
         {/* <Experience /> */}
       </div>
